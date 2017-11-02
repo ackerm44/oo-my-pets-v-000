@@ -56,7 +56,8 @@ class Owner
   end
 
   def sell_pets
-
+    @pets[:fishes].clear
+    puts @pets
   end
 
   def list_pets
