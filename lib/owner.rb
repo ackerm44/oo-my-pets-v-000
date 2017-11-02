@@ -56,14 +56,15 @@ class Owner
   end
 
   def sell_pets
-    @pets.each do |pet|
-      [pet].clear
-      #pet.mood = "nervous"
-    end
 
-    # @pets[:fishes].clear
-    # @pets[:cats].clear
-    # @pets[:dogs].clear
+    @pets[:fishes].clear
+    @pets[:cats].clear
+    @pets[:dogs].clear
+
+    @pets[:fishes].each {|fish| fish.mood = "nervous"}
+    @pets[:cats].each {|cat| cat.mood = "nervous"}
+    @pets[:dogs].each {|dog| dog.mood = "nervous"}
+      
 
   end
 
