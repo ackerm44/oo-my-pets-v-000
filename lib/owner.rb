@@ -59,7 +59,7 @@ class Owner
     @pets[:fishes].clear
     @pets[:cats].clear
     @pets[:dogs].clear
-    puts @pets
+    #puts @pets
   end
 
   def list_pets
