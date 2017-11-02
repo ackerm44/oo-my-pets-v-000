@@ -60,11 +60,11 @@ class Owner
       [pet].clear
       pet.mood = "nervous"
     end
-    
-    @pets[:fishes].clear
-    @pets[:cats].clear
-    @pets[:dogs].clear
-    #puts @pets
+
+    # @pets[:fishes].clear
+    # @pets[:cats].clear
+    # @pets[:dogs].clear
+
   end
 
   def list_pets
